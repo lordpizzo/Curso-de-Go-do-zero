@@ -23,10 +23,8 @@ func (u *usuario) fazerAniversario() {
 func main() {
 
 	usuario1 := usuario{"João", 25}
-	usuario2 := usuario{"Maria", 30}
 
 	println(usuario1.nome)
-	println(usuario2.nome)
 
 	usuario1.nome = "Pedro"
 	println(usuario1.nome)
